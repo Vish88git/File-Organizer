@@ -1,22 +1,54 @@
-# File Organizer Bot 🗂️
+# 🗂️ File Organizer Bot
 
-A simple Python script that organizes files in a folder into subfolders
-based on their type (Images, Documents, Music, Archives, Others).
+A simple and beginner-friendly Python script that automatically organizes files in any folder by grouping them into subfolders based on file type (Images, Documents, Music, Archives, Others).
 
-## How to use
+Perfect for cleaning up messy Downloads or Desktop folders!
 
-1. Make sure you have Python 3 installed.
-2. Run the script:
+---
 
-   ```bash
-   python File_organizer.py
-   ---
-   
-When asked, paste the path of the folder you want to organize
-(for example, C:\Users\Admin\Desktop\CERTIFICATIONS\Python_certification\Playground).
+## 🚀 Features
 
-3.The script will:
+- Detects each file's extension  
+- Classifies files into categories (Images, Documents, Music, Archives, Others)  
+- Creates category folders automatically if needed  
+- Moves files into the correct folders  
+- Works on any folder the user selects  
+- Clean and modular Python code (easy to understand)
 
--Detect each file’s extension
--Create category folders if needed
--Move the files into the correct folders
+---
+
+## 📦 Requirements
+
+- Python 3 installed  
+- Works on Windows, macOS, or Linux  
+- No external libraries needed (uses built-in `pathlib` and `shutil`)
+
+---
+
+## 🧠 How to Run the File Organizer Bot
+
+Follow these simple steps to run the script on any machine.
+
+---
+
+### **1️⃣ Open a terminal**
+
+You can use:
+
+- **VS Code Terminal**  
+  Press <kbd>Ctrl</kbd> + <kbd>`</kbd>  
+  or go to **Terminal → New Terminal**
+
+OR
+
+- **Command Prompt / PowerShell**  
+  Press <kbd>Win</kbd> + <kbd>R</kbd> → type `cmd` → press Enter
+
+---
+
+### **2️⃣ Navigate to the folder containing this script**
+
+Example (change path based on your setup):
+
+```bash
+cd "C:\Users\Admin\Python-VSCode\Python Projects\Organizer_1"
